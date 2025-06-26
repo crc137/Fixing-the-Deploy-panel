@@ -48,8 +48,8 @@
 // @author       Coonlink Dev
 // @license      MIT
 // @homepageURL  https://github.com/crc137/Fixing-the-Deploy-panel
-// @updateURL    https://coonlink.com/fixing-dokploy-panel.user.js
-// @downloadURL  https://coonlink.com/fixing-dokploy-panel.user.js
+// @updateURL    https://github.com/crc137/Fixing-the-Deploy-panel/raw/refs/heads/main/install.user.js
+// @downloadURL  https://github.com/crc137/Fixing-the-Deploy-panel/raw/refs/heads/main/install.user.js
 // @supportURL   https://github.com/crc137/Fixing-the-Deploy-panel/issues
 // @match        https://admin.coonlink.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=dokploy.com
