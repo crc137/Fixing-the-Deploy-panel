@@ -1,6 +1,15 @@
-# Fixing-the-Deploy-panel
+<div id="top" class="">
 
-Fixing the Dokploy admin panel with a userscript.
+<div align="center" class="text-center">
+<h1>Fixing-the-Deploy-panel</h1>
+<p><em>Fixing the Dokploy admin panel with a userscript.</em></p>
+
+<img alt="last-commit" src="https://img.shields.io/github/last-commit/crc137/fontawesome-free-pro?style=flat&amp;logo=git&amp;logoColor=white&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/crc137/fontawesome-free-pro?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/crc137/fontawesome-free-pro?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+</div>
+
+---
 
 ## Description
 
@@ -20,6 +29,8 @@ Once installed, the userscript will automatically apply fixes and enhancements t
 
 Contributions are welcome! If you have any fixes or improvements, feel free to submit a pull request.
 
-## License
+---
 
-This project does not have a license file. Please refer to the repository owner for licensing information.
+## 🛡 License
+
+MIT © [Coonlink](https://coonlink.com)
