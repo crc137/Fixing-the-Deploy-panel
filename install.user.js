@@ -51,7 +51,7 @@
 // @downloadURL  https://coonlink.com/fixing-dokploy-panel.user.js
 // @supportURL   https://github.com/crc137/Fixing-the-Deploy-panel/issues
 // @match        https://admin.coonlink.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=coonlink.com
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=dokploy.com
 // @grant        none
 // @run-at       document-end
 // @require      https://coonlink.com/fixing-dokploy-panel.user.js
