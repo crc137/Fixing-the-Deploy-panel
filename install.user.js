@@ -43,23 +43,53 @@
 // @description:az  Dokploy idarəetmə panelinin düzəldilməsi
 // @description:ml  Dokploy അഡ്മിന് പാനൽ പരിഹരിക്കുന്നു
 
-// @namespace     http://tampermonkey.net/
-// @version       1.0.0
-// @author        Coonlink Dev
-// @license       MIT
-// @homepageURL   https://github.com/crc137/Fixing-the-Deploy-panel
-// @updateURL     https://coonlink.com/fixing-dokploy-panel.user.js
-// @downloadURL   https://coonlink.com/fixing-dokploy-panel.user.js
-// @supportURL    https://github.com/crc137/Fixing-the-Deploy-panel/issues
-// @icon          https://www.google.com/s2/favicons?sz=64&domain=coonlink.com
-// @match         https://admin.coonlink.com/*
-// @grant         none
-// @run-at        document-end
-// @require       https://coonlink.com/fixing-dokploy-panel.user.js
-// @noframes
+// @namespace    http://tampermonkey.net/
+// @version      1.0.0
+// @author       Coonlink Dev
+// @homepageURL  https://github.com/crc137/Fixing-the-Deploy-panel
+// @updateURL    https://coonlink.com/fixing-dokploy-panel.user.js
+// @downloadURL  https://coonlink.com/fixing-dokploy-panel.user.js
+// @supportURL   https://github.com/crc137/Fixing-the-Deploy-panel/issues
+// @match        https://admin.coonlink.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=coonlink.com
+// @grant        none
+// @run-at       document-end
+// @require      https://coonlink.com/fixing-dokploy-panel.user.js
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
+    function isDokployPage() {
+        const titleEl = document.querySelector('title');
+        if (titleEl && titleEl.textContent.includes('Dokploy')) {
+            return true;
+        }
+
+        try {
+            const nextDataScript = document.querySelector('#__NEXT_DATA__');
+            if (nextDataScript) {
+                const data = JSON.parse(nextDataScript.textContent);
+                const metricsType = data?.props?.pageProps?.trpcState?.json?.queries
+                    ?.find(q => q.queryKey?.[0]?.[0] === 'user' && q.queryKey?.[0]?.[1] === 'get')
+                    ?.state?.data?.user?.metricsConfig?.server?.type;
+                if (metricsType === 'Dokploy') {
+                    return true;
+                }
+            }
+        } catch (e) {
+            console.warn('[Fixing Dokploy Panel] JSON parse error:', e);
+        }
+
+        return false;
+    }
+
+    if (!isDokployPage()) {
+        console.log('[Fixing Dokploy Panel] Not a Dokploy page. Skipping script.');
+        return;
+    }
+
+    console.log('[Fixing Dokploy Panel] ✅ Dokploy detected. Running script...');
+
+    document.body.style.border = '3px solid lime';
 })();
