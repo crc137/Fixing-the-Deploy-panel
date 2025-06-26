@@ -9,8 +9,6 @@
 <img alt="repo-language-count" src="https://img.shields.io/github/languages/count/crc137/fontawesome-free-pro?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 </div>
 
----
-
 ## Description
 
 This project aims to improve the Dokploy admin panel by providing fixes and enhancements through a userscript.
@@ -28,8 +26,6 @@ Once installed, the userscript will automatically apply fixes and enhancements t
 ## Contributing
 
 Contributions are welcome! If you have any fixes or improvements, feel free to submit a pull request.
-
----
 
 ## 🛡 License
 
