@@ -8,7 +8,7 @@
 // @updateURL    https://coonlink.com/fixing-dokploy-panel.user.js
 // @downloadURL  https://coonlink.com/fixing-dokploy-panel.user.js
 // @supportURL   https://github.com/crc137/Fixing-the-Deploy-panel/issues
-// @match        https://admin.coonlink.com/*
+// @match        {Your Dokploy Panel Admin URL}
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=coonlink.com
 // @grant        none
 // @run-at       document-end
