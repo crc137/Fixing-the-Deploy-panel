@@ -14,3 +14,8 @@
 // @run-at       document-end
 // @require      https://coonlink.com/fixing-dokploy-panel.user.js
 // ==/UserScript==
+
+(function() {
+    'use strict';
+
+})();
