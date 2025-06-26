@@ -55,8 +55,8 @@
 // @grant        none
 // @run-at       document-end
 // @noframes
-// @match        *://*.dokploy.com/*
-// @match        *://*.dokploy.io/*
+// @match        http://*/*
+// @match        https://*/*
 // @match        *://*.coonlink.com/*
 // ==/UserScript==
 
