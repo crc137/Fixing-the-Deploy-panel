@@ -35,7 +35,7 @@
 // @description:it  Correzione del pannello di amministrazione di Dokploy
 // @description:pl  Naprawa panelu administracyjnego Dokploy
 // @description:uk  Виправлення панелі адміністратора Dokploy
-// @description:fa  اصلاح پنل مدیریت Dokploy
+// @description:fa  اصلاح پنл مدیریت Dokploy
 // @description:nl  Het beheerpaneel van Dokploy repareren
 // @description:id  Memperbaiki panel admin Dokploy
 // @description:kk  Dokploy әкімшілік панелін түзету
@@ -44,7 +44,7 @@
 // @description:ml  Dokploy അഡ്മിന് പാനൽ പരിഹരിക്കുന്നു
 
 // @namespace    http://tampermonkey.net/
-// @version      1.0.4
+// @version      1.0.5
 // @author       Coonlink Dev
 // @license      MIT
 // @homepageURL  https://github.com/crc137/Fixing-the-Deploy-panel
@@ -55,6 +55,8 @@
 // @grant        none
 // @run-at       document-end
 // @noframes
+// @match        *://*.dokploy.com/*
+// @match        *://*.dokploy.io/*
 // ==/UserScript==
 
 (function () {
