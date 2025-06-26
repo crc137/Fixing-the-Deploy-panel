@@ -4,9 +4,9 @@
 <h1>Fixing-the-Deploy-panel</h1>
 <p><em>Fixing the Dokploy admin panel with a userscript.</em></p>
 
-<img alt="last-commit" src="https://img.shields.io/github/last-commit/crc137/fontawesome-free-pro?style=flat&amp;logo=git&amp;logoColor=white&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/crc137/fontawesome-free-pro?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/crc137/fontawesome-free-pro?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="last-commit" src="https://img.shields.io/github/last-commit/crc137/Fixing-the-Deploy-panel?style=flat&amp;logo=git&amp;logoColor=white&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/crc137/Fixing-the-Deploy-panel?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/crc137/Fixing-the-Deploy-panel?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 </div>
 
 ## Description
