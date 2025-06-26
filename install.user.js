@@ -43,18 +43,20 @@
 // @description:az  Dokploy idarəetmə panelinin düzəldilməsi
 // @description:ml  Dokploy അഡ്മിന് പാനൽ പരിഹരിക്കുന്നു
 
-// @namespace    http://tampermonkey.net/
-// @version      1.0.0
-// @author       Coonlink Dev
-// @homepageURL  https://github.com/crc137/Fixing-the-Deploy-panel
-// @updateURL    https://coonlink.com/fixing-dokploy-panel.user.js
-// @downloadURL  https://coonlink.com/fixing-dokploy-panel.user.js
-// @supportURL   https://github.com/crc137/Fixing-the-Deploy-panel/issues
-// @match        https://admin.coonlink.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=coonlink.com
-// @grant        none
-// @run-at       document-end
-// @require      https://coonlink.com/fixing-dokploy-panel.user.js
+// @namespace     http://tampermonkey.net/
+// @version       1.0.0
+// @author        Coonlink Dev
+// @license       MIT
+// @homepageURL   https://github.com/crc137/Fixing-the-Deploy-panel
+// @updateURL     https://coonlink.com/fixing-dokploy-panel.user.js
+// @downloadURL   https://coonlink.com/fixing-dokploy-panel.user.js
+// @supportURL    https://github.com/crc137/Fixing-the-Deploy-panel/issues
+// @icon          https://www.google.com/s2/favicons?sz=64&domain=coonlink.com
+// @match         https://admin.coonlink.com/*
+// @grant         none
+// @run-at        document-end
+// @require       https://coonlink.com/fixing-dokploy-panel.user.js
+// @noframes
 // ==/UserScript==
 
 (function() {
