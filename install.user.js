@@ -57,6 +57,7 @@
 // @noframes
 // @match        *://*.dokploy.com/*
 // @match        *://*.dokploy.io/*
+// @match        https://admin.coonlink.com/*
 // ==/UserScript==
 
 (function () {
