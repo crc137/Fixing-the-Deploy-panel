@@ -44,7 +44,7 @@
 // @description:ml  Dokploy അഡ്മിന് പാനൽ പരിഹരിക്കുന്നു
 
 // @namespace    http://tampermonkey.net/
-// @version      1.0.3
+// @version      1.0.4
 // @author       Coonlink Dev
 // @license      MIT
 // @homepageURL  https://github.com/crc137/Fixing-the-Deploy-panel
