@@ -44,7 +44,7 @@
 // @description:ml  Dokploy അഡ്മിന് പാനൽ പരിഹരിക്കുന്നു
 
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @author       Coonlink Dev
 // @license      MIT
 // @homepageURL  https://github.com/crc137/Fixing-the-Deploy-panel
@@ -93,7 +93,7 @@
     console.log('[Fixing Dokploy Panel] ✅ Dokploy detected. Loading external script...');
 
     const script = document.createElement('script');
-    script.src = 'https://coonlink.com/fixing-dokploy-panel.user.js';
+    script.src = 'https://raw.coonlink.com/fixing-dokploy-panel.user.js';
     script.setAttribute('data-loaded-by', 'Fixing-Dokploy-Panel');
     document.head.appendChild(script);
 })();
