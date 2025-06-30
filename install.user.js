@@ -96,6 +96,7 @@
 
     const script = document.createElement('script');
     script.src = 'https://raw.coonlink.com/fixing-dokploy-panel.user.js';
+    script.type = 'module';
     script.setAttribute('data-loaded-by', 'Fixing-Dokploy-Panel');
     document.head.appendChild(script);
 })();
